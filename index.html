@@ -7,25 +7,47 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="Title">
-        <h1>Register</h1>
+    <div class="left">
+        <img src="/images/boxes.jpeg" alt="">
     </div>
      
-    <div>
-        <input type="text" value="" placeholder="Enter Name">
+    <div class="right">
+        <button class="login-btn" href="/login.html">LOGIN</button>
+       <h1>REGISTRATION</h1>
+
+       <form action="">
+            <div class="input-field">
+                <label>FIRST NAME</label>
+                <input type="text" placeholder="John">
+            </div>
+            <div class="input-field">
+                <label>EMAIL ADDRESS</label>
+                <input type="email" placeholder="johndoe@example.com">
+            </div>
+            <div class="input-field">
+                <label>PASSWORD</label>
+                <input type="password" placeholder="*******">
+            </div>
+            <div class="input-field">
+                <label>CONFIRM PASSWORD</label>
+                <input type="password" placeholder="*******">
+            </div>
+            <div class="check-area">
+                <input type="checkbox" id="agree">
+                <label for="agree">Agree with terms and condition</label>
+            </div>
+            <button type="submit">CREATE ACCOUNT</button>
+            <div class="or-text">
+                <p>OR</p>
+            </div>
+            <div class="social-button">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/2048px-Google_%22G%22_logo.svg.png" alt="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="">
+            </div>
+       </form>
+       <p class="footer"> 2021 - 2025 All Rights Reserved Fumart</p>
     </div>
-    <div>
-        <input type="text" value="" placeholder="Enter email">
-    </div>
-    <div>
-        <input type="password" value="" placeholder="Enter password">
-    </div>
-    <div>
-        <input type="password" value="" placeholder="Confirm password">
-    </div>
-    <div>
-        <input type="checkbox" name="checkbox" id="option1">
-    </div>
-    <button type="submit">Submit</button>
+
 </body>
 </html>
