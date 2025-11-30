@@ -11,7 +11,7 @@ body {
     background: linear-gradient(to bottom right, #d2e9ff, #ffffff);
 }
 
-/* LEFT SIDE IMAGE */
+
 .left {
     width: 50%;
     display: flex;
@@ -26,7 +26,7 @@ body {
     object-fit: cover;
 }
 
-/* RIGHT SIDE REGISTRATION CARD */
+
 .right {
     width: 50%;
     padding: 60px 90px;
@@ -38,7 +38,7 @@ body {
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-/* LOGIN BUTTON TOP RIGHT */
+
 .login-btn {
     position: absolute;
     top: 30px;
@@ -58,7 +58,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* INPUT FIELDS */
+
 .input-field {
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@ h1 {
     color: #444;
 }
 
-/* SUBMIT BUTTON */
+
 button[type="submit"] {
     width: 100%;
     padding: 12px;
@@ -104,7 +104,7 @@ button[type="submit"] {
     font-size: 14px;
 }
 
-/* OR TEXT */
+
 .or-text {
     text-align: center;
     margin: 15px 0;
@@ -112,7 +112,7 @@ button[type="submit"] {
     color: #444;
 }
 
-/* SOCIAL BUTTONS */
+
 .social-button {
     display: flex;
     justify-content: center;
@@ -131,7 +131,7 @@ button[type="submit"] {
     scale: 1.1;
 }
 
-/* FOOTER */
+
 .footer {
     margin-top: auto;
     text-align: center;
